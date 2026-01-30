@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AKS Sample App</title>
+</head>
+<body>
+  <h1>🚀 AKS Sample Application</h1>
+  <p id="time"></p>
+
+  <script>
+    setInterval(() => {
+      document.getElementById("time").innerText =
+        "Current Time: " + new Date().toLocaleString();
+    }, 1000);
+  </script>
+</body>
+</html>
